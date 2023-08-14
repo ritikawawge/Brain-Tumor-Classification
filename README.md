@@ -79,19 +79,19 @@ After training the model, I evaluated its performance on the test set. The follo
 
 1. **Classification Report**: This report provided precision, recall, F1-score, and support for each class (tumor and non-tumor). It also included the overall accuracy. 
 
-<img alt="Classification Report" src="Results/images_cnn_model/images_cnn_model_performance.jpg">
+<img alt="Classification Report" src="Results/images_cnn_model_performance.jpg">
 
 2. **Confusion Matrix**: The confusion matrix allowed me to visualize the true positive, true negative, false positive, and false negative predictions of the model.
 
-<img alt="Confusion Matrix" src="Results/images_cnn_model/images_cnn_model_confusion_matrix.jpg">
+<img alt="Confusion Matrix" src="Results/images_cnn_model_confusion_matrix.jpg">
 
 3. **Normalized Confusion Matrix**: I also plotted a normalized confusion matrix to observe the performance of the model in a more interpretable format.
 
-<img alt="Confusion Matrix" src="Results/images_cnn_model/images_cnn_model_normalised_confusion_matrix.jpg">
+<img alt="Confusion Matrix" src="Results/images_cnn_model_normalised_confusion_matrix.jpg">
 
 4. **ROC Curve**: The Receiver Operating Characteristic (ROC) curve provided insights into the model's ability to discriminate between tumor and non-tumor samples at different thresholds.
 
-<img alt="ROC Curve" src="Results/images_cnn_model/images_cnn_model_roc.jpg">
+<img alt="ROC Curve" src="Results/images_cnn_model_roc.jpg">
 
 ## Results and Discussion
 
@@ -101,7 +101,7 @@ The normalized confusion matrix showed that the model had relatively balanced pr
 
 The ROC curve indicated that the model performed well in terms of true positive rate and false positive rate across various thresholds.
 
-<img alt="Predictions" src="Results/images_cnn_model/images_cnn_model_confidence.jpg">
+<img alt="Predictions" src="Results/images_cnn_model_confidence.jpg">
 
 ## Conclusions
 
